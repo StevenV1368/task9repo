@@ -2,7 +2,7 @@
 // example
 // argument: Hello
 // return: olleH
-console.log("task 9 test")
+console.log("task 9 test");
 function reverseThisString(string){
     let newStr = '';
 
@@ -38,7 +38,7 @@ for(var i = 0; i < string.length; i++)
 }
 return newStr;
 }
-console.log(swapCase("heLLo"))
+console.log(swapCase("heLLo"));
 
 //convert array of numbers from farenheit to celcius
 // example:
@@ -75,7 +75,7 @@ var boolArr = inputArr.map(function passOrFail(inputArr){
 }
 
 );
-console.log(boolArr)
+console.log(boolArr);
 
 
 
@@ -109,7 +109,7 @@ function returnPrimeNumbers(){
         return number == 2 || number == 3 || number == 5 || number == 7 || number == 11 || number==13;
 
     }
-    )
+    );
 
     }
     console.log(returnPrimeNumbers());
@@ -124,7 +124,7 @@ function finalFunc(){
     
     for(var i = 1; i <=100; i++)
     {
-        var a = ""
+        var a = "";
         if(i % 3 === 0)
         {
             a+= "CSC225 RULES";
@@ -132,10 +132,10 @@ function finalFunc(){
         if(i %5 === 0)
         {
             if(a){
-                a+= " I LOVE JAVASCRIPT"
+                a+= " I LOVE JAVASCRIPT";
             }
             else{
-                a+= "I LOVE JAVASCRIPT"
+                a+= "I LOVE JAVASCRIPT";
             }
             
             
